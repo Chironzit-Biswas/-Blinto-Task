@@ -1,4 +1,4 @@
-// import React, { useEffect, useState } from 'react'
+
 import DetailsCard from './DetailsCard';
 import FAQ from './FAQ';
 import logo1 from '../images/MapPin.png'
@@ -32,13 +32,6 @@ function Details  () {
         }
     ]
 
-    // const [list, setList] = useState([]);
-    //
-    // useEffect(()=>{
-    //     fetch('./Address.json')
-    //         .then(res => res.json())
-    //         .then(data => setList(data))
-    // },[])
 
   return (
     <div className={'max-w-[1216px] h-[48px] mx-5 md:mx-auto'}>
