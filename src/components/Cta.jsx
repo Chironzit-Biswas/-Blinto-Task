@@ -10,7 +10,7 @@ const Cta = () => {
           <div>
             <h1
               className={
-                "text-[36px] font-extrabold   mb-[12px] leading-[44px]"
+                "md:text-[36px] text-[30px] text-[#1E293B] font-extrabold   mb-[12px] leading-[44px]"
               }
             >
               Let’s Download The App.

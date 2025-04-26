@@ -28,7 +28,7 @@ const Branding = () => {
 
   return (
     <div>
-         <div className={'h-[352px] flex flex-col max-w-[1216px] mt-[64px] mx-auto items-center justify-center'}>
+         <div className={' flex flex-col max-w-[1216px] border-2 py-[64px] md:mx-auto items-center justify-center'}>
                 <div className={'md:flex flex-wrap grid grid-cols-3 mx-8 justify-center items-center gap-[28px]'}>
                     <img src={allBrand.logo1} alt=""/>
                     <img src={allBrand.logo2} alt=""/>

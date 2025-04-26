@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react"; // Optional: Install lucide-react for nice icons
+import { ChevronDown } from "lucide-react";
 import Cta from "./Cta";
+import que from '../images/Question.png'
 
 const faqs = [
   {
@@ -34,40 +35,27 @@ const faqs = [
 
   return (
     <div id="faq">
-    <section className="py-16 px-6  max-w-[1216px]  mx-auto">
+    <section className="py-16 px-6  max-w-[1216px] md:mx-auto">
       <div className="text-center mb-10">
-        <span className="text-sm font-semibold text-indigo-600 uppercase bg-indigo-100 rounded-full px-3 py-1 inline-block mb-3">FAQ</span>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <span className="text-sm font-semibold text-indigo-600 uppercase bg-indigo-100 rounded-full px-3 py-1 inline-block mb-[24px]">FAQ</span>
+        <h2 className="text-3xl md:text-4xl text-[#1E293B] font-bold mb-[24px]">Frequently Asked Questions</h2>
+        <p className=" text-gray-600 max-w-2xl md:mx-auto text-[16px]">
           Fermentum iaculis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas
           fringilla phasellus. Donec ac odio tempor orci dapibus ultrices.
         </p>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-4  ]">
         {faqs.map((faq, index) => (
-          <div key={index} className="border-b">
+          <div key={index} className="border-b text-[#CBD5E1]">
             <button
               className="flex justify-between items-center w-full py-4 text-left text-lg font-semibold text-gray-800"
               onClick={() => toggleFAQ(index)}
             >
               <div className="flex items-center gap-2">
-                <span className="text-indigo-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8z"
-                    />
-                  </svg>
-                </span>
+
+                  <img src={que} alt=""/>
+
                 {faq.question}
               </div>
               <ChevronDown

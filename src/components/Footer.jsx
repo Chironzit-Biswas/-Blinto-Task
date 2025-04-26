@@ -4,10 +4,10 @@ import logo from '../images/Logo.png'
 
 const Footer = () => {
   return (
-    <footer className=" text-gray-800">
+    <footer className=" text-gray-800 px-[16px]">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="flex flex-col md:grid md:grid-cols-6 gap-8 border-b border-gray-300 pb-8">
-          {/* Columns */}
+
           <div>
             <h4 className="font-semibold mb-4">Site Map</h4>
             <ul className="space-y-2 text-sm">
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
+
         <div className="flex flex-col md:flex-row justify-between items-center mt-8">
           <div className="flex items-center space-x-2">
             <span className="font-bold text-lg"><img src={logo} alt="" /></span>

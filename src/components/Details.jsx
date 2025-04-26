@@ -13,13 +13,13 @@ function Details  () {
     },[])
 
   return (
-    <div className={'max-w-[1216px] h-[48px] mx-auto'}>
+    <div className={'max-w-[1216px] h-[48px] mx-5 md:mx-auto'}>
          <div className={'flex flex-col justify-center items-start mx-8'}>
                     <p className={'text-[#4F46E5] text-[14px] mt-[96px] font-semibold bg-[#EEF2FF] py-[6px] px-[12px] rounded-full'}>Visit
                         Us Anytime</p>
                     <h1 className={'text-[36px] t font-extrabold text-[#1E293B]  mt-[24px] md:w-2/3 leading-[44px]'}>Our
                         Office</h1>
-                    <p className={'text-[18px] font-normal  text-[#475569] mt-[24px]  mb-[64px]'}>You can visit our
+                    <p className={'text-[18px] font-normal md:w-full w-[320px] text-[#475569] mt-[24px]  mb-[64px]'}>You can visit our
                         office
                         anytime but please don’t stalk us or don’t be creepy.</p>
                 </div>

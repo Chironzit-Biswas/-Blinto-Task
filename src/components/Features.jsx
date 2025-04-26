@@ -45,10 +45,10 @@ const Features = () => {
          <div className={'max-w-[1216px] mx-auto'}>
                 <div className={'flex flex-col justify-center items-center'}>
                     <p className={'text-[#4F46E5] text-[14px] mt-[96px] font-semibold bg-[#EEF2FF] py-[6px] px-[12px] rounded-full'}>Our Main Features</p>
-                    <h1 className={'text-[60px] font-extrabold text-[#1E293B] text-center mt-[24px] md:w-2/3 leading-[68px]'}>Our Primary Features</h1>
+                    <h1 className={'md:text-[60px] text-[30px] font-extrabold text-[#1E293B] text-center mt-[24px] md:w-2/3 leading-[38px] md:leading-[68px]'}>Our Primary Features</h1>
                     <p className={'text-[18px] font-normal text-[#475569] mt-[24px] w-2/3 text-center mb-[64px]'}>Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam non nisi. Nisi porta lorem mollis aliquam ut porttitor leo.</p>
                 </div>
-                <div className={'flex flex-wrap justify-center items-center gap-[64px] mb-[96px]'}>
+                <div className={'flex flex-wrap justify-center items-center gap-[32px] mb-[96px]'}>
                 {
                         cards.map(card => <Card key={card.id} card={card}></Card>)
                     }
