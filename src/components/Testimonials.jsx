@@ -1,4 +1,4 @@
-// import React, { useEffect, useState } from 'react'
+
 import TestimonialCard from './TestimonialCard';
 import Details from './Details';
 import FAQ from './FAQ';
@@ -111,8 +111,6 @@ const Testimonials = () => {
         }
 
     ]
-
-
 
   return (
     <div id='testimonials'>

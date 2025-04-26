@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const DetailsCard = ({details}) => {
   const{logo,country,address}=details
   return (

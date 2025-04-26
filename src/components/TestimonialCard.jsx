@@ -1,5 +1,5 @@
 import React from 'react'
-// import newAvatar from '../images/Avatar1.png'
+
 
 const TestimonialCard = ({card}) => {
     const {rating,des,img,title,profile_des}=card
