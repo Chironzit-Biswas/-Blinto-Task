@@ -2,6 +2,7 @@
 import TestimonialCard from './TestimonialCard';
 import Details from './Details';
 import FAQ from './FAQ';
+import rating1 from '../images/Rating1.png'
 
 
 const Testimonials = () => {
@@ -10,7 +11,7 @@ const Testimonials = () => {
 
         {
             "id": 1,
-            "rating": "src/images/Rating1.png",
+            "rating": rating1,
             "des": "Lorem ipsum dolor sit amet, consectetur ad-zzz-ing elit. Proin vel urna at metus tempor mattis, or not, whatever.",
             "img": "src/images/Avatar1.png",
             "title": "X_AE_A-13",
