@@ -1,4 +1,5 @@
 import React from 'react'
+import newAvatar from '../images/Avatar1.png'
 
 const TestimonialCard = ({card}) => {
     const {rating,des,img,title,profile_des}=card
@@ -10,8 +11,9 @@ const TestimonialCard = ({card}) => {
                          <h1 className={'mt-[24px] text-[18px] text-[#475569] leading-[160%]'}>{des}</h1>
                      </div>
                     <div className={'flex mt-[24px]'}>
-                        <img  src={img} alt="AvatarImg"/>
-                         <h1>Name</h1>
+                        {/*<img  src={img} alt="AvatarImg"/>*/}
+                        <img src={newAvatar} alt="avatar"/>
+
                          <div className={'ml-4'}>
                              <h1 className={'font-medium'}>{title}</h1>
                              <p className={'text-[16px] text-[#475569]'}>{profile_des}</p>
