@@ -112,13 +112,7 @@ const Testimonials = () => {
 
     ]
 
-    // const [showReviews, setShowReviews] = useState([])
-    //
-    // useEffect(() => {
-    //     fetch('./ReviewData.json')
-    //         .then(res => res.json())
-    //         .then(data => setShowReviews(data))
-    // }, []);
+
 
   return (
     <div id='testimonials'>
