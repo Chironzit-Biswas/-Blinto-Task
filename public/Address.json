@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "logo":"src/images/MapPin.png",
+      "country": "Japan",
+      "address": "221b Banzai Street Tokyo, TO  77812"
+    },
+    {
+      "id": 2,
+      "logo":"src/images/MapPin.png",
+      "country": "USA",
+      "address": "221b Freedom Street New York, NY 21231"
+    },
+    {
+      "id": 3,
+      "logo":"src/images/MapPin.png",
+      "country": "Canada",
+      "address": "221b Maple Syrup Street Ottawa, OW 77847"
+    },
+    {
+      "id": 4,
+      "logo":"src/images/MapPin.png",
+      "country": "South Korea",
+      "address": "221b Samyang Street Gangnam, GM 22124"
+    }
+  ]
