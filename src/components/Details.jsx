@@ -1,16 +1,44 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 import DetailsCard from './DetailsCard';
 import FAQ from './FAQ';
+import logo1 from '../images/MapPin.png'
 
 function Details  () {
 
-    const [list, setList] = useState([]);
+    const address=[
+        {
+            "id": 1,
+            "logo":logo1,
+            "country": "Japan",
+            "address": "221b Banzai Street Tokyo, TO  77812"
+        },
+        {
+            "id": 2,
+            "logo":logo1,
+            "country": "USA",
+            "address": "221b Freedom Street New York, NY 21231"
+        },
+        {
+            "id": 3,
+            "logo":logo1,
+            "country": "Canada",
+            "address": "221b Maple Syrup Street Ottawa, OW 77847"
+        },
+        {
+            "id": 4,
+            "logo":logo1,
+            "country": "South Korea",
+            "address": "221b Samyang Street Gangnam, GM 22124"
+        }
+    ]
 
-    useEffect(()=>{
-        fetch('./Address.json')
-            .then(res => res.json())
-            .then(data => setList(data))
-    },[])
+    // const [list, setList] = useState([]);
+    //
+    // useEffect(()=>{
+    //     fetch('./Address.json')
+    //         .then(res => res.json())
+    //         .then(data => setList(data))
+    // },[])
 
   return (
     <div className={'max-w-[1216px] h-[48px] mx-5 md:mx-auto'}>
@@ -25,7 +53,7 @@ function Details  () {
                 </div>
                 <div className=' md:flex justify-center items-center mx-auto'>
                     {
-                        list.map(details => <DetailsCard key={details.id} details={details}></DetailsCard>)
+                        address.map(details => <DetailsCard key={details.id} details={details}></DetailsCard>)
                     }
                 </div>
                 <div>
