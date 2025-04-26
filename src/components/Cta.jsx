@@ -1,5 +1,5 @@
 import React from "react";
-import RightSideImg from "../images/ctaRightpic.png";
+import DownloadAppPic from '../images/DownloadAppPic.png'
 import Footer from "./Footer";
 
 const Cta = () => {
@@ -31,8 +31,8 @@ const Cta = () => {
             </div>
           </div>
 
-          <div className={"md:h-full md:w-full p-5 "}>
-            <img src={RightSideImg} alt="" />
+          <div className={"md:h-full md:w-full "}>
+            <img className={'mt-[48px]'} src={DownloadAppPic} alt="" />
           </div>
         </div>
 

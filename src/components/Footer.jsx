@@ -4,13 +4,13 @@ import logo from '../images/Logo.png'
 
 const Footer = () => {
   return (
-    <footer className=" text-gray-800 px-[16px]">
-      <div className="max-w-7xl mx-auto px-4 py-12">
+    <footer className=" text-gray-800 ">
+      <div className="max-w-[1216px] mx-auto  py-[64px]">
         <div className="flex flex-col md:grid md:grid-cols-6 gap-8 border-b border-gray-300 pb-8">
 
           <div>
-            <h4 className="font-semibold mb-4">Site Map</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-bold text-[16px] text-[#1E293B]  mb-4">Site Map</h4>
+            <ul className="space-y-2 text-sm text-[16px] text-[#475569]">
               <li>Homepage</li>
               <li>Product</li>
               <li>Services</li>
@@ -20,8 +20,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-bold text-[16px] text-[#1E293B]  mb-4">Services</h4>
+            <ul className="space-y-2 text-sm text-[16px] text-[#475569]">
               <li>Service Lineup 1</li>
               <li>Service Lineup 2</li>
               <li>Service Lineup 3</li>
@@ -31,8 +31,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Product</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-bold text-[16px] text-[#1E293B]  mb-4">Product</h4>
+            <ul className="space-y-2 text-sm text-[16px] text-[#475569]">
               <li>Product Lineup 1</li>
               <li>Product Lineup 2</li>
               <li>Product Lineup 3</li>
@@ -42,8 +42,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Help & Support</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-bold text-[16px] text-[#1E293B]  mb-4">Help & Support</h4>
+            <ul className="space-y-2 text-sm text-[16px] text-[#475569]">
               <li>Live Chat</li>
               <li>Email Support</li>
               <li>Product Refund</li>
@@ -53,8 +53,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-bold text-[16px] text-[#1E293B]  mb-4">Legal</h4>
+            <ul className="space-y-2 text-sm text-[16px] text-[#475569]">
               <li>Privacy Policy</li>
               <li>HIPAA Notice</li>
               <li>Data Policy</li>
@@ -64,8 +64,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Pricing</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-bold text-[16px] text-[#1E293B]  mb-4">Pricing</h4>
+            <ul className="space-y-2 text-sm text-[16px] text-[#475569]">
               <li>Pricing Tier 1</li>
               <li>Pricing Tier 2</li>
               <li>Pricing Tier 3</li>
@@ -86,7 +86,7 @@ const Footer = () => {
               <FaChevronUp size={16} />
             </button>
           </div>
-          <p className="text-xs text-gray-400">Copyright 2028 slothUI, All Rights Reserved.</p>
+          <p className="text-xs text-gray-400">Copyright 2028 Chironzit Biswas, All Rights Reserved.</p>
         </div>
       </div>
     </footer>
