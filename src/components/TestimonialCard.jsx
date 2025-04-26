@@ -11,6 +11,7 @@ const TestimonialCard = ({card}) => {
                      </div>
                     <div className={'flex mt-[24px]'}>
                         <img  src={img} alt="AvatarImg"/>
+                         <h1>Name</h1>
                          <div className={'ml-4'}>
                              <h1 className={'font-medium'}>{title}</h1>
                              <p className={'text-[16px] text-[#475569]'}>{profile_des}</p>
